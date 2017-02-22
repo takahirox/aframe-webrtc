@@ -1,0 +1,33 @@
+{
+  "name": "aframe-webrtc",
+  "version": "0.0.1",
+  "description": "A-Frame WebRTC component",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run build && npm run build-uglify",
+    "build": "webpack index.js build/aframe-webrtc.js",
+    "build-uglify": "webpack -p index.js build/aframe-webrtc.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takahirox/aframe-webrtc.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-vr",
+    "vr",
+    "mozvr",
+    "webrtc",
+    "webvr"
+  ],
+  "author": "Takahiro <hogehoge@gachapin.jp> (https://github.com/takahirox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takahirox/aframe-webrtc/issues"
+  },
+  "homepage": "https://github.com/takahirox/aframe-webrtc#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}
+
